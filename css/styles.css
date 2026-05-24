@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Times New Roman", serif;
 }
 
 #layout {
@@ -19,7 +20,6 @@ body {
   box-sizing: border-box;
   border-right: 4px ridge #c0c0c0;
   font-size: 1.5em;
-  font-family: "Times New Roman", serif;
 }
 
 #menu-container a {

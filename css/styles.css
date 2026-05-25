@@ -1,16 +1,37 @@
+/* Removes the empty frame added by some browsers */
 body {
   margin: 0;
-  padding: 0;
   font-family: "Times New Roman", serif;
 }
 
+/* Slightly increases the text size in <p> */
+p {
+  font-size: 1.1em;
+}
+
+/* Places items side by side and extends the menu to the bottom of the page */
 #layout {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
   min-height: 100vh;
 }
 
+/* Positions table with page content */
+#content {
+  max-width: 900px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto; /* Centers table in the middle of the window */
+  margin-right: auto;
+}
+
+/* Centers table inside #content section (required for Eleventy) */
+#content table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* */
 #menu-container {
   width: 150px;
   flex-shrink: 0;
@@ -19,19 +40,18 @@ body {
   padding: 10px;
   box-sizing: border-box;
   border-right: 4px ridge #c0c0c0;
-  font-size: 1.5em;
 }
 
+/* Sets the color to black (instead of the default blue) and removes the underline */
 #menu-container a {
   color: black;
   text-decoration: none;
+  font-size: 1.5em;
 }
 
+/* Empty gaps between menu "buttons" */
 #menu-container table {
   margin-bottom: 15px;
 }
 
-#content {
-  flex: 1;
-  overflow-y: auto;
-}
+/* ;-; */

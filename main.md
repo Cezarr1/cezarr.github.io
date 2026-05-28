@@ -2,6 +2,7 @@
 layout: layout.njk
 title: Cezarr's Empty Website
 description: Personal website about retro stuff and a collection of the 88x31 buttons from around the world!
+background: evostars.png
 ---
 
 # ![Polish Flag](/images/POL.gif) Cezarr's Empty Website ![Polish Flag](/images/POL.gif)

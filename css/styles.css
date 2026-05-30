@@ -1,12 +1,13 @@
-/* Removes the empty frame added by some browsers */
+/* Removes the empty frame added by some browsers and slightly increases the text size */
 body {
   margin: 0;
   font-family: "Times New Roman", serif;
+  font-size: 1.1em;
 }
 
-/* Slightly increases the text size in <p> */
-p {
-  font-size: 1.1em;
+/* Resize images for the mobile screens */
+img {
+  max-width: 100%;
 }
 
 /* Places items side by side and extends the menu to the bottom of the page */
@@ -20,8 +21,7 @@ p {
 #content {
   width: 900px;
   max-width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   margin-left: auto; /* Centers table in the middle of the window */
   margin-right: auto;
 }
@@ -52,7 +52,7 @@ p {
 #menu-container a {
   color: black;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 /* Empty gaps between menu "buttons" */
